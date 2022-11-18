@@ -1,0 +1,31 @@
+###
+GET http://localhost:8000/api HTTP/1.1
+
+###
+POST http://localhost:8000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "vini",
+    "equipo": "real madrid",
+    "posicion": "delantero",
+    "edad": 22,
+    "nacionalidad": "brasilenio",
+    "valor": 120
+}
+
+###
+DELETE http://localhost:8000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:8000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "lewy",
+    "equipo": "barca",
+    "posicion": "delantero",
+    "edad": 35,
+    "nacionalidad": "polaco",
+    "valor": 40
+}
