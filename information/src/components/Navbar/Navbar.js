@@ -42,8 +42,8 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              <NavIcon />
-              Recruitment
+              
+            ⚽ MK Information
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -60,8 +60,8 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/players' onClick={closeMobileMenu}>
-                  Players
+                <NavLinks to='/leagues' onClick={closeMobileMenu}>
+                  League
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
