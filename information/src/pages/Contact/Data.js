@@ -39,7 +39,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Vini Jr.',
     headline:
-      'Recruitment helped me to sign with Real Madrid and improve my talent. ',
+      'MK information es una pagína de información de los partidos de las principales ligas del mundo. ',
     description:
       "Their team is wonderful!.",
     buttonLabel: 'View Case Study',
