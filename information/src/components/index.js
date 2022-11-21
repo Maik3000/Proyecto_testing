@@ -5,4 +5,6 @@ export { default as InfoSectionContact } from './InfoSectionContact/InfoSectionC
 export { default as InfoSectionTerms } from './InfoSectionTerms/InfoSectionTerms';
 export { default as Pricing } from './Pricing/Pricing';
 export { default as PlayersList } from './PlayersList';
-
+import {componentA} from './component-a.jsx';
+import {componentB} from './component-b.jsx';
+export {componentA, componentB};
